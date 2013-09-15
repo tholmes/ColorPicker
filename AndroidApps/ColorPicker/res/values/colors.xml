@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  don't forget the first byte is an alpha channel - #aarrggbb -->
+    <color name="sliderColorLabel">#bbbbbb</color>
+    
+</resources>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/id_colorinfomain_layout">
+    
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TableRow
+        	android:orientation="horizontal"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content">
+    
+		    <TextView
+		        android:layout_weight="0.05"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:text="R: ">
+		    </TextView>
+		    
+		    <TextView
+		        android:layout_weight="0.45"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:id="@+id/id_r_value">
+		    </TextView>
+	    
+		    <TextView
+		        android:layout_weight="0.05"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:text="H: ">
+		    </TextView>
+		    
+		    <TextView
+		        android:layout_weight="0.45"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:id="@+id/id_h_value">
+		    </TextView>
+	    
+        </TableRow>
+    
+	    <TableRow
+	        android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	    
+		    <TextView
+		        android:layout_weight="0.05"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:text="G: ">
+		    </TextView>
+		    
+		    <TextView
+		        android:layout_weight="0.45"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:id="@+id/id_g_value">
+		    </TextView>
+	    
+		    <TextView
+		        android:layout_weight="0.05"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:text="S: ">
+		    </TextView>
+		    
+		    <TextView
+		        android:layout_weight="0.45"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:id="@+id/id_s_value">
+		    </TextView>
+		    
+	    </TableRow>
+    
+	    <TableRow
+	        android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	    
+		    <TextView
+		        android:layout_weight="0.05"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:text="B: ">
+		    </TextView>
+		    
+		    <TextView
+		        android:layout_weight="0.45"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:id="@+id/id_b_value">
+		    </TextView>
+	    
+		    <TextView
+		        android:layout_weight="0.05"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:text="V: ">
+		    </TextView>
+		    
+		    <TextView
+		        android:layout_weight="0.45"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:id="@+id/id_v_value">
+		    </TextView>
+		    
+	    </TableRow>
+        
+    </TableLayout>
+   
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+	    
+        <TableRow
+        	android:orientation="horizontal"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content">
+    
+		    <TextView
+	        	android:layout_weight="0.04"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:text="C: ">
+		    </TextView>
+		    
+		    <TextView
+	        	android:layout_weight="0.96"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:id="@+id/id_c_value">
+		    </TextView>
+            
+        </TableRow>
+	    
+        <TableRow
+        	android:orientation="horizontal"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content">
+    
+		    <TextView
+	        	android:layout_weight="0.04"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:text="M: ">
+		    </TextView>
+		    
+		    <TextView
+	        	android:layout_weight="0.96"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:id="@+id/id_m_value">
+		    </TextView>
+            
+        </TableRow>
+	    
+        <TableRow
+        	android:orientation="horizontal"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content">
+    
+		    <TextView
+	        	android:layout_weight="0.04"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:text="Y: ">
+		    </TextView>
+		    
+		    <TextView
+	        	android:layout_weight="0.96"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:id="@+id/id_y_value">
+		    </TextView>
+            
+        </TableRow>
+	    
+        <TableRow
+        	android:orientation="horizontal"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content">
+	    
+		    <TextView
+	        	android:layout_weight="0.04"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:text="K: ">
+		    </TextView>
+	    	
+		    <TextView
+	        	android:layout_weight="0.96"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:id="@+id/id_k_value">
+		    </TextView>
+            
+        </TableRow>
+	    
+    </TableLayout>
+    
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:gravity="center">
+    
+	    <EditText
+        android:gravity="center"
+	        android:id="@+id/id_colorinfo_edittext"
+	        android:layout_width="120dp"
+	        android:layout_height="wrap_content"
+	        android:editable="false"
+	        android:cursorVisible="false">
+		</EditText>
+        
+    </LinearLayout>
+
+</LinearLayout>

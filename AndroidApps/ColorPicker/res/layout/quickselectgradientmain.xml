@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/id_quickselectgradientmain_layout">"
+    
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+          
+            <TableRow
+                android:id="@+id/topRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+                <EditText
+                    android:id="@+id/currentColorHexCode"
+                    android:ems="5"
+                    />
+                
+                <!-- spacer view -->
+                <View
+                    android:id="@+id/spacer1"
+                    android:layout_height="match_parent"
+                    android:layout_width="10dp"/>
+    
+                <TextView
+                    android:id="@+id/gradientPreviewPane"
+                    android:layout_height="fill_parent"
+                    android:layout_width="75dp"/>
+                
+                <Button
+                    android:id="@+id/applyPreview"
+                    android:text="Apply" 
+                    />
+                <Button
+                    android:id="@+id/resetHexCode"
+                    android:text="Reset" 
+                    />
+                
+             </TableRow>
+             
+        <View
+            android:layout_height="5dp"
+            />
+            
+        <View
+            android:layout_height="2dp"
+            android:background="#FFFFFF"
+            />
+        
+        <View
+            android:layout_height="5dp"
+            />
+        
+        <TableRow
+            android:id="@+id/rowLumEx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+          <TextView
+              android:layout_span="2"
+              android:id="@+id/hexLumEx1"/>
+		      <TextView
+		          android:layout_span="3"
+		          android:id="@+id/lumEx1"/>
+        </TableRow>
+    
+        <TableRow
+            android:id="@+id/rowLumEx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+		    
+        <TextView
+            android:layout_span="2"
+            android:id="@+id/hexLumEx2"/>
+		    <TextView
+		        android:layout_span="3"
+		        android:id="@+id/lumEx2"/>
+    	  </TableRow>
+ 
+        <TableRow
+            android:id="@+id/rowLumEx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+    
+        <TextView
+            android:layout_span="2"
+            android:id="@+id/hexLumEx3"/>
+		    <TextView
+		        android:layout_span="3"
+		        android:id="@+id/lumEx3"/>
+   		  </TableRow>
+    
+        <TableRow
+            android:id="@+id/rowLumEx4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+		    
+        <TextView
+            android:layout_span="2"
+            android:id="@+id/hexLumEx4"/>
+		    <TextView
+		        android:layout_span="3"
+		        android:id="@+id/lumEx4"/>
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/rowLumEx5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+    
+        <TextView
+            android:layout_span="2"
+            android:id="@+id/hexLumEx5"/>
+		    <TextView
+		        android:layout_span="3"
+		        android:id="@+id/lumEx5"/>
+    	  </TableRow>
+    
+        <TableRow
+            android:id="@+id/rowLumEx6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+    
+        <TextView
+            android:layout_span="2"
+            android:id="@+id/hexLumEx6"/>
+		    <TextView
+		        android:layout_span="3"
+		        android:id="@+id/lumEx6"/>
+    	  </TableRow>
+        
+        <TableRow
+            android:id="@+id/rowLumEx7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+    
+        <TextView
+            android:layout_span="2"
+            android:id="@+id/hexLumEx7"/>
+        <TextView
+            android:layout_span="3"
+	          android:id="@+id/lumEx7"/>
+        </TableRow>
+            
+        <TableRow
+            android:id="@+id/rowLumEx8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+    
+        <TextView
+            android:layout_span="2"
+            android:id="@+id/hexLumEx8"/>
+	      <TextView
+	          android:layout_span="3"
+	          android:id="@+id/lumEx8"/>
+      	</TableRow>
+        
+        <TableRow
+            android:id="@+id/rowLumEx9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_span="2"
+            android:id="@+id/hexLumEx9"/>
+        <TextView
+            android:layout_span="3"
+            android:id="@+id/lumEx9"/>
+        </TableRow>
+            
+        <TableRow
+            android:id="@+id/rowLumEx10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+    
+        <TextView
+            android:layout_span="2"
+            android:id="@+id/hexLumEx10"/>
+	      <TextView
+	          android:layout_span="3"
+		        android:id="@+id/lumEx10"/>
+	      </TableRow>
+	    
+        <TableRow
+            android:id="@+id/rowLumEx11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+    
+        <TextView
+            android:layout_span="2"
+            android:id="@+id/hexLumEx11"/>
+        <TextView
+            android:layout_span="3"
+            android:id="@+id/lumEx11"/>
+        </TableRow>
+      
+    </TableLayout>
+</LinearLayout>

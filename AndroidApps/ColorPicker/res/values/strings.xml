@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ColorPickerActivity!</string>
+    <string name="app_name">Color Picker</string>
+    <string name="hsvActivityName">Saturation and Value Settings</string>
+    <string name="quickSelectGradientActivityName">Quick Gradient Selection</string>
+    <string name="colorInfoActivityName">Color Information</string>
+    <string name="invalidHexCodeFormatWarning">Invalid format for hex code, try #RRGGBB (0 &#8211;9 &amp; A &#8211;F).</string>
+    <string name="hueSliderLabel">H</string>
+
+</resources>
